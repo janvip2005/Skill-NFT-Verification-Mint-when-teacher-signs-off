@@ -1,0 +1,16 @@
+[package]
+name = "Skill-NFT-verification--Mint-teacher-signs-off"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0xc4ff66a3b97d2c0e59c88ed184d4a81bfdabf52698e063585141e280d54219d0'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
